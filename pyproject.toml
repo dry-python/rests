@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rests"
+version = "0.0.1"
+description = "Framework independent REST the way it should be! "
+authors = ["sobolevn <mail@sobolevn.me>"]
+license = "BSD-3-Clause"
+
+readme = "README.md"
+
+repository = "https://github.com/dry-python/rests"
+homepage = "https://rests.readthedocs.io"
+
+[tool.poetry.urls]
+"Funding" = "https://github.com/sponsors/dry-python"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
